@@ -1,0 +1,12 @@
+@import "_variables.scss";
+@mixin box {
+    border: 1px solid #8C8C8C;
+    padding: 16px;
+    color: white;
+}
+
+@mixin boxShadow {
+    -webkit-box-shadow: 10px 10px 15px -4px $colorGrey;
+    -moz-box-shadow: 10px 10px 15px -4px $colorGrey;
+    box-shadow: 10px 10px 15px -4px $colorGrey;
+}
