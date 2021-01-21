@@ -88,16 +88,13 @@ h3 {
     margin-bottom: 0px;
 }
 
-.messages {
-    padding: 10px;
-}
-
+.messages,
 .success,
 .error,
 .warning {
+    padding: 10px;
     border: 1px solid #8C8C8C;
-    padding: 16px;
-    color: white;
+    color: #fff;
 }
 
 .success {
